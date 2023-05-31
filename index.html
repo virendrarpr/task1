@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Search Website</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    />
+</head>
+<body>
+    <div class="hero">
+        <header>
+            <nav>
+                <p class="logo">HEALTHCARE.</p>
+                <div class="menu">
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li class="btn actv"><a href="#main_form">Get Started</a></li>
+                </div>
+            </nav>
+            <div class="header_bottom">
+                <div class="left">
+                    <h2>Find And Search Your <p class="word">Suitable Doctor’s</p></h2>
+                    <p class="para">Join us and take care of yourself and your family with health services that will make you fill confident and safe in your daily life.</p>
+                    <div id="main_form" class="main_form">
+                        <div class="input_box">
+                          <input type="search" name="doctor-type" id="doctor-type" placeholder="Enter doctor type...">
+                        </div>
+                        <div class="input_box">
+                          <input type="search" name="location" id="location" placeholder="Enter location...">
+                        </div>
+                          <div class="rectangle" onclick="handleSubmit()">
+                          <img class="search" alt="" src=".\public\search_FILL1_wght300_GRAD0_opsz24.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                <img
+                    class="header_img"
+                    alt=""
+                    src=".\public\surgeryimg.jpg"
+                />
+            </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="loading">Loading...
+    </div>
+
+    <div class="search_result">
+        <p class="subhead">Doctors Found In Your Area</p>
+        <div class="doctors">
+        </div>
+    </div>
+
+   <div class="steps_box">
+    <p class="stephead">3 Easy Steps And Get Your Solution</p>
+    <div class="steps">
+        <div class="step">
+            <div>
+                <img
+                alt=""
+                src=".\public\search_FILL0_wght400_GRAD0_opsz48.png"
+              />
+            </div>
+            <p>Find Best Doctor’s</p>
+            <p class="pr">Find Your Doctor With Minimum Effort. We’ve Kept Everything Organized For You</p>
+        </div>
+        <div class="step">
+            <div>
+                <img
+                alt=""
+                src=".\public\calendar_month_FILL0_wght400_GRAD0_opsz48.png"
+              />
+            </div>
+            <p>Get Appointment</p>
+            <p class="pr">Ask For An Appointment Of The Doctor Quickly With Almost A Single Click. We Take Care Of The Rest.</p>
+        </div>
+        <div class="step">
+            <div>
+                <img
+                alt=""
+                src=".\public\contact_phone_FILL0_wght400_GRAD0_opsz48.png"
+              />
+            </div>
+            <p>Happy Consultations</p>
+            <p class="pr">Do Consultations And Take The Service Based On Your Appointment. Get Back To Good</p>
+        </div>
+    </div>
+   </div>
+   <div class="bottomsection">
+    <div class="leftsection">
+        <img
+        alt=""
+        src=".\public\smilingdoctor.png"
+      />
+    </div>
+    <div class="rightsection">
+        <h2>
+            Best Quality Service With Our <p class="word">Experience Doctors</p>
+        </h2>
+        <p class="para">With Our Top Doctors, We Are Able To Provide Best Medical Services Above Average. We Have Highly Experienced Doctors, So Don’t Worry. They Are Also Very Talented In Their Fields.</p>
+        <div class="checkpoints">
+            <img alt="" src=".\public\checkpoints.png" />
+            <p>Search Your Specialist & Online Consultant Anywhere</p>
+        </div>
+        <div class="checkpoints">
+            <img alt="" src=".\public\checkpoints.png" />
+            <p>Consultation Our Top Specialists</p>
+        </div>
+        <div class="checkpoints">
+            <img alt="" src=".\public\checkpoints.png" />
+            <p>Doctors Are Available 24/7</p>
+        </div>
+    </div>
+
+   <div class="footer"></div>
+</body>
+</html>
